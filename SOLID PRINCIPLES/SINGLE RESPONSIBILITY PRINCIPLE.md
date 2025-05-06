@@ -1,0 +1,85 @@
+# 🧱 Single Responsibility Principle (SRP) – SOLID Design Principle
+
+## 📘 What is SRP?
+**Single Responsibility Principle** is the first of the SOLID principles of object-oriented design.
+
+> 💡 A class should have **only one reason to change** – meaning it should only have **one job or responsibility**.
+
+This principle helps in making your code:
+- Easier to maintain
+- Simpler to understand
+- More testable and reusable
+
+---
+
+## 🔍 Real-World Analogy
+Imagine a **chef** in a restaurant.  
+If the chef has to **cook**, **clean dishes**, **take orders**, and **manage inventory** — they'll be overwhelmed and error-prone.
+
+Instead, split responsibilities:
+- Chef cooks
+- Waiter takes orders
+- Cleaner washes dishes
+- Manager handles inventory
+
+Same applies to classes in code.
+
+---
+
+## 🧪 Code Example in C++
+
+### ❌ Without SRP (One class doing too much)
+```cpp
+class Report {
+    void generateReport() {
+        // logic to generate report
+    }
+    void printReport() {
+        // logic to print
+    }
+    void saveToDatabase() {
+        // logic to save
+    }
+}
+```
+
+❌ Too many responsibilities: generate, print, and save.
+
+### ✅ With SRP (Correct way):
+```cpp
+class ReportGenerator {
+    void generate() { /* ... */ }
+}
+
+class ReportPrinter {
+    void print() { /* ... */ }
+}
+
+class ReportSaver {
+    void save() { /* ... */ }
+}
+```
+
+Each class = 1 responsibility = 1 reason to change.
+
+---
+
+## 🧠 Benefits of SRP
+* 👨‍🔧 Easier to debug and change
+* 🔬 Simplifies unit testing
+* 🧩 Improves reusability
+* 📏 Keeps class size and logic manageable
+
+---
+
+## 🛑 Common Mistakes
+* Over-splitting too early (don't make 100 tiny classes unnecessarily)
+* Thinking SRP = small class (it's about **reason to change**, not size)
+
+---
+
+## 📌 Final Tip
+Start simple. Split later **when the class grows** or starts having **multiple reasons to change**.
+
+**NOTE:** Ask yourself: "If a requirement changes, which class will I need to touch?"
+If the answer is **more than one reason**, consider splitting it.
