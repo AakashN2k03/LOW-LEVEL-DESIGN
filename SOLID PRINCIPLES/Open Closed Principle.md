@@ -1,6 +1,6 @@
 # 🧱 Open/Closed Principle (OCP) – SOLID Design Principle
 
-## 📘 What is OCP?
+## 📘 What is OCP? 
 **Open/Closed Principle** is the second of the SOLID principles of object-oriented design.
 
 > 💡 A class should be **open for extension** but **closed for modification**.  
