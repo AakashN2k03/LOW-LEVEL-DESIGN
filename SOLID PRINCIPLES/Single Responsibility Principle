@@ -4,7 +4,7 @@
 **Single Responsibility Principle** is the first of the SOLID principles of object-oriented design.
 
 > 💡 A class should have **only one reason to change** – meaning it should only have **one job or responsibility**.
-
+ 
 This principle helps in making your code:
 - Easier to maintain
 - Simpler to understand
