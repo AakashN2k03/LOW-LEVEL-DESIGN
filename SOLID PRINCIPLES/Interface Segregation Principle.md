@@ -160,7 +160,7 @@ int main() {
 
 ## 💡 Final Tip
 
-**When applying ISP, always think from the perspective of the client class. 
-**What functionality does it really need? If an interface requires methods that don’t apply to the class, 
-**it's a sign to split it into more relevant, smaller interfaces. 
+** When applying ISP, always think from the perspective of the client class. 
+** What functionality does it really need? If an interface requires methods that don’t apply to the class, 
+** it's a sign to split it into more relevant, smaller interfaces. 
 By doing this, you'll create code that is cleaner, more maintainable, and adaptable to future changes.
