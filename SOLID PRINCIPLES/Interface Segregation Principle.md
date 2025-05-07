@@ -3,7 +3,7 @@
 ## 📘 What is ISP?
 
 The **Interface Segregation Principle** is the fourth principle in the SOLID principles of object-oriented design, introduced by Robert C. Martin.
-
+ 
 ### 💡 Definition
 
 > No client should be forced to depend on interfaces it does not use.
