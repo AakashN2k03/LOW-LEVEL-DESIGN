@@ -8,7 +8,7 @@ The **Interface Segregation Principle** is the fourth principle in the SOLID pri
 
 > No client should be forced to depend on interfaces it does not use.
 
-In simpler terms: **Create smaller, more focused interfaces rather than large, general-purpose ones.**
+In simpler terms: ** "Don’t give a class more methods than it actually needs to implement." **
 
 ## 🎯 Core Concept
 
