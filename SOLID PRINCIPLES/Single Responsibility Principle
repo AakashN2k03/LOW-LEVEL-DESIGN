@@ -79,7 +79,7 @@ Each class = 1 responsibility = 1 reason to change.
 ---
 
 ## 📌 Final Tip
-Start simple. Split later **when the class grows** or starts having **multiple reasons to change**.
+Start simple. Split later ** when the class grows ** or starts having ** multiple reasons to change **.
 
 **NOTE:** Ask yourself: "If a requirement changes, which class will I need to touch?"
 If the answer is **more than one reason**, consider splitting it.
