@@ -1,7 +1,5 @@
 # 💡 Dependency Injection in C++ (SOLID - Dependency Inversion Principle)
 
-This project demonstrates the **Dependency Inversion Principle (DIP)** using a simple real-world example in C++: a `Switch` that can operate any `Device` (like a `Light` or a `Fan`), using **Dependency Injection**.
-
 ## 📘 What is Dependency Inversion Principle (DIP)?
 
 > High-level modules should not depend on low-level modules.  
