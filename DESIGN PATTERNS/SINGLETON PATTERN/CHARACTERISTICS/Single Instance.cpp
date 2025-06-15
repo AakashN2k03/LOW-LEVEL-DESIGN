@@ -12,7 +12,7 @@ private:
 public:
     static Logger* getInstance() {
         if (instance == nullptr) {
-            instance = new Logger();  // ✅ Fix here
+            instance = new Logger(); 
         }
         return instance;
     }
