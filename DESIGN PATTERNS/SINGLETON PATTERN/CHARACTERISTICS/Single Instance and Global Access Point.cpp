@@ -10,6 +10,7 @@ private:
     }
 
 public:
+    // Global access point to the Logger object
     static Logger* getInstance() {
         if (instance == nullptr) {
             instance = new Logger(); 
